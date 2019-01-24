@@ -4,7 +4,8 @@ In this project the main idea was to undestand an influencer. Which is her/his c
 
 For this case, I scraped millions of tweets from twitter looking at the mentions and comments to the influencers and the friends of his friends (radius 2) and generate the ego network. With this, I cut bounds with low engagement in order to get a real network of trust.
 
-
+![Screenshot](summerizedGraph.png)
+Clustered graph showing the strength of bounds between clusters and the influencer (LenaNarvay)
 
 Finally, I measured centrality so as to understand which were principal authors, those bottleneck users, effective diameter (without redundancies) and interpretable clusters using infomap.
 
